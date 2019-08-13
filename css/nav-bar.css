@@ -1,0 +1,32 @@
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #fcfcfc;
+}
+
+.nav-bar .nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar .nav-bar__list-link {
+  position: relative;
+}
+
+.nav-bar .nav-bar__badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
