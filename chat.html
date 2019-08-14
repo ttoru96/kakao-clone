@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">
@@ -43,7 +43,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           Friday, July 12, 2019
@@ -55,7 +55,7 @@
               Harry
             </span>
             <div class="message__bubble">
-              Ron and I will be off to Hagrid's hut!
+              Ron and I am off to Hagrid's hut!
             </div>
           </div>
           <span class="message__timestamp">
@@ -69,6 +69,30 @@
           <div class="message__content">
             <div class="message__bubble">
               Are you two ditching class again?
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/harry_potter.jpg" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">
+              Harry
+            </span>
+            <div class="message__bubble">
+              Yes, we are!
+            </div>
+          </div>
+          <span class="message__timestamp">
+            10:02
+          </span>
+        </li>
+        <li class="outgoing-message message">
+          <span class="message__timestamp">
+            10:04
+          </span>
+          <div class="message__content">
+            <div class="message__bubble">
+              Please don't get caught...
             </div>
           </div>
         </li>

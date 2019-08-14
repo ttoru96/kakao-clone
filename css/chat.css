@@ -1,0 +1,130 @@
+.chats-body {
+  padding: 0;
+}
+
+.chats-body .status-bar {
+  padding: 0px 20px;
+}
+
+.chat-screen {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/gryffindor.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.chat__write {
+  position: fixed;
+  width: 80%;
+  bottom: 30px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.chat__write i {
+  font-size: 22px;
+}
+
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+
+.chat__write-column input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.chat__write-column input:focus {
+  outline: none;
+}
+
+.chat-screen .chat__messages {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.chat__messages .chat__timestamp {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(5, 2, 2, 0.024) 0px -6px 16px -6px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.messagee .message__content {
+  width: 80%;
+}
+
+.message .message__timestamp {
+  align-self: flex-end;
+  margin: 0px 5px;
+}
+
+.incoming-message {
+  align-self: flex-start;
+}
+
+.incoming-message .message__author {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 600;
+}
+
+.outgoing-message {
+  align-self: flex-end;
+}
+
+.incoming-message img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.message .message__bubble {
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 10px 20px;
+}
+
+.incoming-message .message__bubble {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: left;
+}
+
+.outgoing-message .message__bubble {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: left;
+}
