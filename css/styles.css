@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
@@ -21,7 +22,7 @@ a {
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/wallpaper.jpeg");
+    url("../images/hogwart.jpeg");
   background-size: cover;
   padding: 10px 20px;
   color: white;
