@@ -5,6 +5,7 @@
   left: 0px;
   bottom: 0px;
   border-top: 1px solid #fcfcfc;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
 .nav-bar .nav-bar__list {

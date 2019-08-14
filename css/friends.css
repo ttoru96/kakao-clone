@@ -18,3 +18,7 @@
 .friends__list .friends__title {
   margin-top: 20px;
 }
+
+.friends__list .friends__friend {
+  margin-bottom: 20px;
+}

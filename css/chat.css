@@ -4,7 +4,7 @@
   width: 100%;
   padding: 5px 0px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/wallpaper.jpeg");
+    url("../images/hogwart.jpeg");
   background-size: cover;
   border-bottom: 0.5px solid white;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
@@ -24,7 +24,7 @@
 
 .chats-body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../images/gryffindor.jpg");
+    url("../images/red-yellow.jpg");
   background-size: cover;
   min-height: 200vh;
 }
